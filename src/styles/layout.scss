@@ -1,5 +1,6 @@
 .main-container {
-  width: 1200px;
+  //width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -102,5 +103,55 @@
       left: 240px;
       // z-index: -1;
     }
+  }
+}
+
+.find-magazine {
+  .heading-h2 {
+    margin-bottom: 80px;
+    margin-top: 125px;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  text-align: center;
+  margin-bottom: 45px;
+  flex-basis: calc(100% / 4);
+  &__image {
+    img {
+      max-width: 180px;
+    }
+  }
+  &__title {
+    color: #0a655e;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 31px;
+    margin-top: 14px;
+  }
+  &__price {
+    color: #0a655e;
+    font-size: 18px;
+    font-weight: 800;
+    span {
+      font-size: 12px;
+    }
+  }
+  &__tax {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  &__details {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0a655e;
+    margin-top: 15px;
+    display: inline-block;
+    letter-spacing: 2.4px;
   }
 }

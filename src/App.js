@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/main.scss';
 
-function App() {
+const App = () => {
   return (
     <>
       <div className='topbar'>
@@ -82,9 +82,118 @@ function App() {
             </div>
           </div>
         </header>
+        <section className='find-magazine main-container'>
+          <h2 className='heading-h2'>Wyszukaj czasopismo</h2>
+          <div className='grid'>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+              </div>
+              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+              <p className='item__price'>
+                98,76<span>PLN</span>
+              </p>
+              <p className='item__tax'>+ VAT 23%</p>
+              <a href='#' className='item__details'>
+                Szczegóły
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
-}
+};
 
 export default App;

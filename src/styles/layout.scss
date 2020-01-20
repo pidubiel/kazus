@@ -86,4 +86,21 @@
       margin-bottom: 0;
     }
   }
+  &__cover {
+    flex: 1;
+    position: relative;
+    .cover-large {
+      position: absolute;
+      top: -40px;
+      left: 60px;
+      max-width: 450px;
+      z-index: 2;
+    }
+    .cover-small {
+      position: absolute;
+      max-width: 380px;
+      left: 240px;
+      // z-index: -1;
+    }
+  }
 }

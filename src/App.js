@@ -76,6 +76,10 @@ function App() {
                 zmiany dotyczące poboru podatku u źródła na gruncie podatków dochodowych, poświęcając im odrębne artykuły.
               </p>
             </div>
+            <div className='magazines__cover'>
+              <img src={require('./assets/cover_large.png')} alt='Large magazine cover' className='cover-large' />
+              <img src={require('./assets/cover_small.png')} alt='Small magazine cover' className='cover-small' />
+            </div>
           </div>
         </header>
       </main>

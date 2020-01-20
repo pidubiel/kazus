@@ -1,0 +1,16 @@
+.paragraph {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 30px;
+  &--bold {
+    font-weight: 600;
+  }
+}
+
+.main-heading {
+  font-size: 52px;
+  color: #fff;
+  margin-bottom: 32px;
+}

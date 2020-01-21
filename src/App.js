@@ -89,108 +89,152 @@ const App = () => {
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
             <div className='item'>
               <div className='item__image'>
                 <img src={require('./assets/item_image.png')} alt='Kazus cover' />
               </div>
-              <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-              <p className='item__price'>
-                98,76<span>PLN</span>
-              </p>
-              <p className='item__tax'>+ VAT 23%</p>
-              <a href='#' className='item__details'>
-                Szczegóły
-              </a>
+              <div className='item__content'>
+                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
             </div>
           </div>
         </section>
+        <div className='pagination'>
+          <div className='pagination__container'>
+            <a href='#' className='pagination__box'>
+              <img src={require('./assets/arrow.svg')} alt='Arrow left' />
+            </a>
+            <a href='' className='pagination__box'>
+              1
+            </a>
+            <a href='' className='pagination__box'>
+              2
+            </a>
+            <a href='' className='pagination__box pagination__box--active'>
+              3
+            </a>
+            <a href='' className='pagination__box'>
+              4
+            </a>
+            <a href='' className='pagination__box'>
+              5
+            </a>
+            <a href='' className='pagination__box'>
+              6
+            </a>
+            <a href='#' className='pagination__box'>
+              <img src={require('./assets/arrow.svg')} alt='Arrow right' />
+            </a>
+          </div>
+        </div>
       </main>
     </>
   );

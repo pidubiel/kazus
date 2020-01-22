@@ -77,6 +77,12 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}
+
 .magazines {
   padding: 60px 0;
   background-color: #0a655e;
@@ -104,6 +110,14 @@
       max-width: 380px;
       left: 240px;
       // z-index: -1;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    &__cover {
+      display: none;
+    }
+    &__text {
+      flex-basis: 100%;
     }
   }
 }

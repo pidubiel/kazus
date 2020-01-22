@@ -2,7 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
   @media screen and (max-width: 1200px) {
-    padding: 0 20px;
+    padding: 0 15px;
   }
 }
 
@@ -54,6 +54,16 @@
   }
   &__logo {
     margin-right: auto;
+  }
+  @media screen and (max-width: 620px) {
+    &__logo {
+      img {
+        max-width: 120px;
+      }
+    }
+    &__btn {
+      margin-left: 25px;
+    }
   }
 }
 
@@ -126,6 +136,7 @@
   .heading-h2 {
     margin-bottom: 80px;
     margin-top: 125px;
+    font-weight: 900;
   }
 }
 
@@ -169,30 +180,47 @@
     color: #0a655e;
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 31px;
+    margin-bottom: 30px;
+    font-weight: 900;
     margin-top: 14px;
+    transition: 0.3s;
   }
   &__price {
     color: #0a655e;
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight: 900;
+    transition: 0.3s;
     span {
       font-size: 12px;
+      margin-left: 3px;
     }
   }
   &__tax {
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #0a655e;
+    transition: 0.3s;
   }
   &__details {
     text-decoration: none;
     text-transform: uppercase;
     color: #0a655e;
     margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
     display: inline-block;
     letter-spacing: 2.4px;
+    transition: 0.3s;
   }
   &:hover {
+    .item__tax,
+    .item__title,
+    .item__price,
+    .item__details {
+      color: #d1b352;
+      transition: 3;
+    }
     .item__content {
       &:before {
         opacity: 1;

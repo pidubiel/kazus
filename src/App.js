@@ -13,7 +13,7 @@ const App = () => {
             <ul className='menu'>
               <li className='menu__item'>
                 <a href='#' className='menu__link'>
-                  O kazusie
+                  O Kazusie
                 </a>
               </li>
               <li className='menu__item'>

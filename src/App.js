@@ -59,6 +59,9 @@ const App = () => {
               <img src={require('./assets/bag.svg')} alt='Shopping bag icon' />
               <span className='counter'>2</span>
             </div>
+            <div className='topbar__btn topbar__btn--desktop-hidden'>
+              <img src={require('./assets/hamburger.svg')} alt='Shopping bag icon' />
+            </div>
           </div>
         </div>
       </div>

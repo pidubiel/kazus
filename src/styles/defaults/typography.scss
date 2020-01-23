@@ -1,7 +1,9 @@
+@import './defaults/colors';
+
 .paragraph {
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: $white;
   font-weight: 300;
   margin-bottom: 30px;
   &--bold {
@@ -13,12 +15,12 @@
   font-size: 56px;
   line-height: 60px;
   font-weight: 700;
-  color: #fff;
+  color: $white;
   margin-bottom: 32px;
 }
 
 .heading-h2 {
   font-size: 42px;
   line-height: 50px;
-  color: #0a655e;
+  color: $main;
 }

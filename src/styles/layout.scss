@@ -1,3 +1,5 @@
+@import './defaults/colors';
+
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -30,15 +32,15 @@
         transform: translate(-54%, -55%);
         top: 50%;
         left: 50%;
-        background-color: #0a655e;
+        background-color: $main;
         border-radius: 50%;
         box-shadow: 3px 3px 10px #80888833;
       }
     }
     .counter {
       position: absolute;
-      background-color: #0a655e;
-      color: #fff;
+      background-color: $main;
+      color: $white;
       font-size: 10px;
       line-height: 14px;
       padding: 0 4px;
@@ -48,12 +50,23 @@
       // max-height: 13px;
       // min-width: 13px;
     }
+    &--desktop-hidden {
+      display: none;
+    }
   }
   &__icons {
     margin-left: 40px;
+    margin-right: 10px;
   }
   &__logo {
     margin-right: auto;
+  }
+  @media screen and (max-width: 1200px) {
+    &__btn {
+      &--desktop-hidden {
+        display: inline-block;
+      }
+    }
   }
   @media screen and (max-width: 620px) {
     &__logo {
@@ -68,8 +81,6 @@
 }
 
 .menu {
-  //padding-top: 45px;
-  //padding-bottom: 30px;
   &__item {
     display: inline-block;
     margin-left: 36px;
@@ -82,7 +93,7 @@
     line-height: 24px;
     transition: 0.3s;
     &:hover {
-      color: #0a655e;
+      color: $main;
     }
   }
 }
@@ -95,7 +106,7 @@
 
 .magazines {
   padding: 60px 0;
-  background-color: #0a655e;
+  background-color: $main;
   &__container {
     display: flex;
   }
@@ -160,7 +171,7 @@
       content: '';
       transition: 0.3s;
       position: absolute;
-      border: 1px solid #d1b352;
+      border: 1px solid $main-hover;
       box-shadow: 20px 20px 40px #2e383826;
       height: calc(100% + 120px);
       width: 100%;
@@ -171,7 +182,7 @@
     }
   }
   &__title {
-    color: #0a655e;
+    color: $main;
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 5px;
@@ -181,7 +192,7 @@
     transition: 0.3s;
   }
   &__price {
-    color: #0a655e;
+    color: $main;
     font-size: 30px;
     font-weight: 900;
     transition: 0.3s;
@@ -194,13 +205,13 @@
     font-size: 14px;
     font-weight: 300;
     margin-top: 10px;
-    color: #0a655e;
+    color: $main;
     transition: 0.3s;
   }
   &__details {
     text-decoration: none;
     text-transform: uppercase;
-    color: #0a655e;
+    color: $main;
     margin-top: 15px;
     font-size: 16px;
     font-weight: 400;
@@ -213,7 +224,7 @@
     .item__title,
     .item__price,
     .item__details {
-      color: #d1b352;
+      color: $main-hover;
       transition: 3;
     }
     .item__content {
@@ -244,8 +255,8 @@
     margin: 0 5px;
     font-weight: 200;
     &--active {
-      background-color: #0a655e;
-      color: #fff;
+      background-color: $main;
+      color: $white;
       font-weight: 600;
     }
     &:last-child {

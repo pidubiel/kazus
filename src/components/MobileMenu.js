@@ -7,7 +7,6 @@ const MobileMenu = () => {
       <button
         onClick={() => {
           setOpen(!isOpen);
-          console.log('isOpen: ', isOpen);
         }}
         className='topbar__btn topbar__btn--desktop-hidden'
       >

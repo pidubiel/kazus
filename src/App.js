@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/main.scss';
-import MobileMenu from './components/MobileMenu.js';
+import { MobileMenu, Cart } from './components';
 
 const App = () => {
   return (
@@ -56,10 +56,7 @@ const App = () => {
             <button className='topbar__btn'>
               <img src={require('./assets/user_icon.svg')} alt='User icon' />
             </button>
-            <button className='topbar__btn'>
-              <img src={require('./assets/bag.svg')} alt='Shopping bag icon' />
-              <span className='counter'>2</span>
-            </button>
+            <Cart />
             <MobileMenu />
           </div>
         </div>

@@ -1,0 +1,149 @@
+.cart {
+  position: absolute;
+  background-color: white;
+  top: 93px;
+  right: 50%;
+  transform: translateX(600px);
+  z-index: 11;
+  padding: 20px 28px;
+  &__close {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: $main;
+    img {
+      display: block;
+      margin: auto;
+    }
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #2e3838;
+  }
+  @media screen and (max-width: 1200px) {
+    right: 0;
+    transform: translateX(0);
+  }
+  @media screen and (max-width: 620px) {
+    right: 0;
+    top: 81px;
+    transform: translateX(0);
+  }
+}
+
+.cart-item {
+  background-color: rgba(241, 245, 245, 0.4);
+  margin-bottom: 10px;
+  &__top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    border-top: 1px solid #f1f5f5;
+  }
+  &__price-text {
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2e3838;
+  }
+  &__price {
+    font-size: 18px;
+    font-weight: 900;
+    color: #2e3838;
+    span {
+      font-size: 15px;
+    }
+  }
+  &__name {
+    color: $main;
+    max-width: 188px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 0 13px;
+  }
+  &__trash {
+    display: block;
+    margin-right: 10px;
+  }
+
+  &__icon {
+    display: flex;
+    background-color: #f1f5f5;
+    padding: 5px;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    img {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+.summary {
+  margin-top: 30px;
+  padding-top: 25px;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: calc(100% + 56px);
+    left: -28px;
+    background-color: rgba(110, 132, 132, 0.35);
+    top: 0px;
+  }
+  &__total {
+    display: flex;
+    align-items: center;
+  }
+  &__total-text {
+    margin-right: auto;
+    color: #2e3838;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  &__price {
+    font-size: 22px;
+    font-weight: 900;
+    color: #2e3838;
+    span {
+      font-size: 16px;
+    }
+  }
+  &__tax {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2e3838;
+  }
+  &__btn {
+    background-color: $main-hover;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: $white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}

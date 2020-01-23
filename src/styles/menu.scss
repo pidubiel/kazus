@@ -1,0 +1,22 @@
+.menu {
+  &__item {
+    display: inline-block;
+    margin-left: 36px;
+  }
+  &__link {
+    font-size: 14px;
+    font-weight: 200;
+    color: $main-dark;
+    text-decoration: none;
+    line-height: 24px;
+    transition: 0.3s;
+    &:hover {
+      color: $main;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    & {
+      display: none;
+    }
+  }
+}

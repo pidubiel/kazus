@@ -1,0 +1,23 @@
+.pagination {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  &__container {
+    text-align: center;
+  }
+  &__box {
+    text-decoration: none;
+    color: #6e8484;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-weight: 200;
+    &--active {
+      background-color: $main;
+      color: $white;
+      font-weight: 600;
+    }
+    &:last-child {
+      transform: rotate(180deg);
+    }
+  }
+}

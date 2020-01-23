@@ -24,7 +24,7 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 16px;
-    color: #2e3838;
+    color: $main-dark;
   }
   @media screen and (max-width: 1200px) {
     right: 0;
@@ -55,12 +55,12 @@
     margin-right: auto;
     font-size: 14px;
     font-weight: 300;
-    color: #2e3838;
+    color: $main-dark;
   }
   &__price {
     font-size: 18px;
     font-weight: 900;
-    color: #2e3838;
+    color: $main-dark;
     span {
       font-size: 15px;
     }
@@ -110,7 +110,7 @@
   }
   &__total-text {
     margin-right: auto;
-    color: #2e3838;
+    color: $main-dark;
     font-size: 16px;
     font-weight: 700;
   }
@@ -121,7 +121,7 @@
   &__price {
     font-size: 22px;
     font-weight: 900;
-    color: #2e3838;
+    color: $main-dark;
     span {
       font-size: 16px;
     }
@@ -131,10 +131,10 @@
     margin-top: 4px;
     font-size: 14px;
     font-weight: 300;
-    color: #2e3838;
+    color: $main-dark;
   }
   &__btn {
-    background-color: $main-hover;
+    background-color: $main-gold;
     display: block;
     width: 100%;
     cursor: pointer;

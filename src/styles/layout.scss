@@ -83,77 +83,6 @@
   }
 }
 
-.menu {
-  &__item {
-    display: inline-block;
-    margin-left: 36px;
-  }
-  &__link {
-    font-size: 14px;
-    font-weight: 200;
-    color: #2e3838;
-    text-decoration: none;
-    line-height: 24px;
-    transition: 0.3s;
-    &:hover {
-      color: $main;
-    }
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .menu {
-    display: none;
-  }
-}
-
-.magazines {
-  padding: 60px 0;
-  background-color: $main;
-  &__container {
-    display: flex;
-  }
-  &__text {
-    flex-basis: 48%;
-    .paragraph:last-child {
-      margin-bottom: 0;
-    }
-  }
-  &__cover {
-    flex: 1;
-    position: relative;
-    .cover-large {
-      position: absolute;
-      top: -40px;
-      left: 60px;
-      max-width: 450px;
-      z-index: 2;
-    }
-    .cover-small {
-      position: absolute;
-      max-width: 380px;
-      left: 240px;
-      // z-index: -1;
-    }
-  }
-  @media screen and (max-width: 1200px) {
-    &__cover {
-      display: none;
-    }
-    &__text {
-      flex-basis: 100%;
-    }
-  }
-}
-
-.find-magazine {
-  .heading-h2 {
-    margin-bottom: 80px;
-    margin-top: 125px;
-    font-weight: 900;
-  }
-}
-
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -175,7 +104,7 @@
       content: '';
       transition: 0.3s;
       position: absolute;
-      border: 1px solid $main-hover;
+      border: 1px solid $main-gold;
       box-shadow: 20px 20px 40px #2e383826;
       height: calc(100% + 120px);
       width: 100%;
@@ -228,7 +157,7 @@
     .item__title,
     .item__price,
     .item__details {
-      color: $main-hover;
+      color: $main-gold;
       transition: 3;
     }
     .item__content {
@@ -242,29 +171,5 @@
   }
   @media screen and (max-width: 620px) {
     flex-basis: calc(100%);
-  }
-}
-
-.pagination {
-  margin-top: 30px;
-  margin-bottom: 100px;
-  &__container {
-    text-align: center;
-  }
-  &__box {
-    text-decoration: none;
-    color: #6e8484;
-    display: inline-block;
-    padding: 8px 12px;
-    margin: 0 5px;
-    font-weight: 200;
-    &--active {
-      background-color: $main;
-      color: $white;
-      font-weight: 600;
-    }
-    &:last-child {
-      transform: rotate(180deg);
-    }
   }
 }

@@ -117,10 +117,25 @@ const App = () => {
             </div>
             <div className='item'>
               <div className='item__image'>
-                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+                <img src={require('./assets/procedury.png')} alt='Procedury administracyjne i podatkowe cover' />
               </div>
               <div className='item__content'>
-                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <h3 className='item__title'>Procedury administracyjne i podatkowe 2</h3>
+                <p className='item__price'>
+                  98,76<span>PLN</span>
+                </p>
+                <p className='item__tax'>+ VAT 23%</p>
+                <a href='#' className='item__details'>
+                  Szczegóły
+                </a>
+              </div>
+            </div>
+            <div className='item'>
+              <div className='item__image'>
+                <img src={require('./assets/prawo_pomocy_publicznej.png')} alt='Prawo pomocy publicznej cover' />
+              </div>
+              <div className='item__content'>
+                <h3 className='item__title'>Prawo pomocy publicznej</h3>
                 <p className='item__price'>
                   98,76<span>PLN</span>
                 </p>
@@ -147,10 +162,10 @@ const App = () => {
             </div>
             <div className='item'>
               <div className='item__image'>
-                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+                <img src={require('./assets/prawo_pomocy_publicznej.png')} alt='Prawo pomocy publicznej cover' />
               </div>
               <div className='item__content'>
-                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <h3 className='item__title'>Prawo pomocy publicznej</h3>
                 <p className='item__price'>
                   98,76<span>PLN</span>
                 </p>
@@ -162,10 +177,10 @@ const App = () => {
             </div>
             <div className='item'>
               <div className='item__image'>
-                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+                <img src={require('./assets/procedury.png')} alt='Procedury administracyjne i podatkowe cover' />
               </div>
               <div className='item__content'>
-                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <h3 className='item__title'>Procedury administracyjne i podatkowe 2</h3>
                 <p className='item__price'>
                   98,76<span>PLN</span>
                 </p>
@@ -177,25 +192,10 @@ const App = () => {
             </div>
             <div className='item'>
               <div className='item__image'>
-                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
+                <img src={require('./assets/prawo_pomocy_publicznej.png')} alt='Prawo pomocy publicznej cover' />
               </div>
               <div className='item__content'>
-                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
-                <p className='item__price'>
-                  98,76<span>PLN</span>
-                </p>
-                <p className='item__tax'>+ VAT 23%</p>
-                <a href='#' className='item__details'>
-                  Szczegóły
-                </a>
-              </div>
-            </div>
-            <div className='item'>
-              <div className='item__image'>
-                <img src={require('./assets/item_image.png')} alt='Kazus cover' />
-              </div>
-              <div className='item__content'>
-                <h3 className='item__title'>Kazus Podatkowy1(6)2019</h3>
+                <h3 className='item__title'>Prawo pomocy publicznej</h3>
                 <p className='item__price'>
                   98,76<span>PLN</span>
                 </p>

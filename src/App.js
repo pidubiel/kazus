@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/main.scss';
+import MobileMenu from './components/MobileMenu.js';
 
 const App = () => {
   return (
@@ -49,19 +50,17 @@ const App = () => {
             </ul>
           </nav>
           <div className='topbar__icons'>
-            <div className='topbar__btn'>
+            <button className='topbar__btn'>
               <img src={require('./assets/magnifier.svg')} alt='Search icon' />
-            </div>
-            <div className='topbar__btn'>
+            </button>
+            <button className='topbar__btn'>
               <img src={require('./assets/user_icon.svg')} alt='User icon' />
-            </div>
-            <div className='topbar__btn'>
+            </button>
+            <button className='topbar__btn'>
               <img src={require('./assets/bag.svg')} alt='Shopping bag icon' />
               <span className='counter'>2</span>
-            </div>
-            <div className='topbar__btn topbar__btn--desktop-hidden'>
-              <img src={require('./assets/hamburger.svg')} alt='Shopping bag icon' />
-            </div>
+            </button>
+            <MobileMenu />
           </div>
         </div>
       </div>

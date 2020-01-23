@@ -13,8 +13,6 @@ const MobileMenu = () => {
       >
         <img src={isOpen ? require('./../assets/hamburger-close.svg') : require('./../assets/hamburger.svg')} alt='Hamburger icon' />
       </button>
-      {isOpen && <style>{`body, html {overflow-y: hidden!important;}`}</style>}
-
       <div onClick={() => setOpen(false)} className={isOpen ? 'mobile-menu mobile-menu--active' : 'mobile-menu'}>
         <nav className='mobile-menu__nav'>
           <ul className='mobile-menu__list'>

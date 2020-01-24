@@ -40,7 +40,7 @@ const Cart = () => {
             <li className='cart-item'>
               <div className='cart-item__top'>
                 <div className='cart-item__icon'>
-                  <img src={require('../assets/book.svg')} alt='' />
+                  <img src={require('../assets/location-pin.svg')} alt='' />
                 </div>
                 <p className='cart-item__name'>Praktyczne problemy związane z realizacją podatku rolnego...</p>
                 <img src={require('../assets/rubbish-bin.svg')} alt='Rubbish bin' className='cart-item__trash' />

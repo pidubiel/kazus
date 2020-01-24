@@ -79,6 +79,9 @@ const App = () => {
               <img src={require('./assets/cover_large.png')} alt='Large magazine cover' className='cover-large' />
               <img src={require('./assets/cover_small.png')} alt='Small magazine cover' className='cover-small' />
             </div>
+            <div className='magazines__path'>
+              <img src={require('./assets/background_path.svg')} alt='Background path' />
+            </div>
           </div>
         </header>
         <section className='find-magazine main-container'>

@@ -12,6 +12,8 @@
   padding-top: 27px;
   border-bottom: 1px solid #f1f5f5;
   padding-bottom: 18px;
+  position: relative;
+  z-index: 11;
   &__container {
     display: flex;
     align-items: center;
